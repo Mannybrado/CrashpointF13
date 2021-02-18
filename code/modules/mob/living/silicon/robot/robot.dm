@@ -52,7 +52,7 @@
 
 	var/alarms = list("Motion"=list(), "Fire"=list(), "Atmosphere"=list(), "Power"=list(), "Camera"=list(), "Burglar"=list())
 
-	var/speed = 1 // VTEC speed boost.
+	var/speed = 0.5 // VTEC speed boost.
 	var/magpulse = FALSE // Magboot-like effect.
 	var/ionpulse = FALSE // Jetpack-like effect.
 	var/ionpulse_on = FALSE // Jetpack-like effect.
@@ -991,7 +991,7 @@
 
 	upgrades.Cut()
 
-	speed = 0
+	speed = 0.5
 	ionpulse = FALSE
 	revert_shell()
 
@@ -1180,7 +1180,7 @@
 	scrambledcodes = TRUE // These are rogue borgs.
 	ionpulse = TRUE
 	braintype = "Robot"
-	speed = 1.5
+	speed = 0.5
 	var/playstyle_string = "<span class='userdanger'>You are a Syndicate assault cyborg!</span><br>\
 							<b>You are armed with powerful offensive tools to aid you in your mission: help the operatives secure the nuclear authentication disk. \
 							Your cyborg LMG will slowly produce ammunition from your power supply, and your operative pinpointer will find and locate fellow nuclear operatives. \

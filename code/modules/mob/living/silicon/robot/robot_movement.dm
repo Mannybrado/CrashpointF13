@@ -4,7 +4,7 @@
 	return ..()
 
 /mob/living/silicon/robot/movement_delay()
-	. = ..()
+	. = 1
 	var/static/config_robot_delay
 	if(isnull(config_robot_delay))
 		config_robot_delay = CONFIG_GET(number/robot_delay)
