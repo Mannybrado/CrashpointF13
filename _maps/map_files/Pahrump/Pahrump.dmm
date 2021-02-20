@@ -14379,11 +14379,16 @@
 /obj/item/reagent_containers/food/snacks/f13/steak,
 /obj/effect/decal/remains/human,
 /turf/open/floor/f13/wood,
-/area/f13/wasteland)
+/area/f13/village)
 "aNa" = (
-/obj/structure/simple_door/house,
-/turf/open/floor/f13/wood,
-/area/f13/wasteland)
+/mob/living/simple_animal/hostile/handy/protectron,
+/obj/machinery/recharge_station,
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2";
+	tag = "icon-bluerustychess2"
+	},
+/area/f13/bunker)
 "aNb" = (
 /obj/structure/fence/corner{
 	dir = 4;
@@ -24434,10 +24439,14 @@
 	},
 /area/f13/village)
 "boC" = (
+/obj/machinery/light{
+	dir = 1
+	},
 /obj/machinery/recharge_station,
-/turf/open/floor/f13{
-	icon_state = "floorrusty";
-	tag = "icon-floorrusty"
+/turf/open/floor/plasteel/barber{
+	icon = 'icons/turf/f13floors2.dmi';
+	icon_state = "bluerustychess2";
+	tag = "icon-bluerustychess2"
 	},
 /area/f13/building)
 "boD" = (
@@ -24539,8 +24548,11 @@
 /area/f13/city)
 "boN" = (
 /obj/machinery/recharge_station,
-/turf/open/floor/wood/f13/old,
-/area/f13/village)
+/turf/open/floor/f13{
+	icon_state = "darkredfull";
+	tag = "icon-darkredfull"
+	},
+/area/f13/bunker)
 "boO" = (
 /obj/machinery/jukebox,
 /turf/open/floor/f13/wood,
@@ -24662,12 +24674,6 @@
 /obj/structure/kitchenspike/cross,
 /turf/open/floor/wood/f13/stage_tl,
 /area/f13/wasteland)
-"bph" = (
-/obj/machinery/recharge_station,
-/turf/open/floor/f13{
-	icon_state = "floorrusty"
-	},
-/area/f13/building)
 "bpi" = (
 /turf/open/floor/wood/f13/stage_t,
 /area/f13/wasteland)
@@ -50576,7 +50582,7 @@ aae
 aae
 aaa
 agk
-aWM
+boC
 acC
 acC
 acC
@@ -55714,7 +55720,7 @@ aae
 aae
 aae
 aHF
-boN
+aWu
 aWu
 aWu
 aWu
@@ -74351,7 +74357,7 @@ aaZ
 aaD
 afa
 aaL
-adB
+aNa
 aaD
 aae
 aae
@@ -75060,7 +75066,7 @@ acv
 acv
 bhV
 bmy
-bph
+afS
 afS
 afS
 agk
@@ -75162,7 +75168,7 @@ agk
 agk
 atJ
 aqa
-boC
+aqa
 agk
 acm
 aft
@@ -80908,10 +80914,10 @@ aat
 aat
 aat
 awE
-aat
-adN
-adN
-adN
+ane
+aaQ
+aaQ
+aaQ
 aPp
 aJl
 aJl
@@ -81165,10 +81171,10 @@ aat
 aat
 aat
 awE
-aat
-adN
+ane
+aaQ
 aMZ
-aNa
+aNU
 aPp
 aGR
 aJl
@@ -81422,10 +81428,10 @@ aat
 aat
 aat
 awE
-aat
-adN
-adN
-adN
+ane
+aaQ
+aaQ
+aaQ
 aPp
 aGR
 aJl
@@ -81679,10 +81685,10 @@ aat
 aat
 aat
 awE
-aat
-aat
-aat
-aat
+ane
+ane
+ane
+ane
 aPB
 aYD
 aYD
@@ -94795,7 +94801,7 @@ aZj
 aZj
 bbB
 bbL
-aZj
+boN
 aaD
 aae
 aae

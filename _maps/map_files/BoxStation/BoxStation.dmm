@@ -16940,7 +16940,7 @@
 /area/f13/ahs)
 "aVg" = (
 /obj/effect/decal/cleanable/dirt,
-/mob/living/simple_animal/hostile/ghoul,
+/mob/living/simple_animal/hostile/ghoul/reaver,
 /turf/open/floor/carpet,
 /area/f13/sunny_dale)
 "aVh" = (
@@ -17695,12 +17695,10 @@
 /area/f13/sunny_dale)
 "aXv" = (
 /obj/machinery/recharge_station,
-/turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
-	},
+/turf/open/floor/plasteel/dark,
 /area/f13/sunny_dale)
 "aXw" = (
-/mob/living/simple_animal/hostile/ghoul,
+/mob/living/simple_animal/hostile/handy,
 /turf/open/floor/plasteel/dark,
 /area/f13/sunny_dale)
 "aXx" = (
@@ -34409,6 +34407,7 @@
 /obj/machinery/camera/autoname{
 	dir = 4
 	},
+/obj/machinery/recharge_station,
 /turf/open/floor/plasteel/f13{
 	icon_state = "floorgrime"
 	},
@@ -35078,6 +35077,10 @@
 /obj/effect/spawner/lootdrop/f13/crafting,
 /turf/open/floor/wood/f13/old,
 /area/f13/legioncamp)
+"ehR" = (
+/mob/living/simple_animal/hostile/ghoul/hot,
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "ejZ" = (
 /turf/open/floor/wood/f13{
 	icon_state = "housewastelandnorth"
@@ -102418,7 +102421,7 @@ aZD
 baE
 aeE
 aHk
-baf
+aXv
 baf
 baf
 baf
@@ -133360,7 +133363,7 @@ aWK
 aWK
 aXI
 aYO
-aXv
+sRe
 aHF
 aZn
 aPi
@@ -147969,7 +147972,7 @@ aio
 abM
 aag
 aag
-aag
+ehR
 aag
 aag
 aag
