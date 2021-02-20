@@ -34960,6 +34960,13 @@
 /obj/item/clothing/head/fluff/cowboy,
 /turf/open/floor/wood/f13/old,
 /area/f13/ncr_main)
+"cth" = (
+/mob/living/simple_animal/hostile/ghoul/hot{
+	desc = "A feral ghoul that has absorbed massive amounts of cheeto dust and radiates cheesy air... It does not appear to be easy.";
+	name = "cheesy ghoul"
+	},
+/turf/open/indestructible/ground/outside/desert,
+/area/f13/desert)
 "czp" = (
 /obj/effect/decal/cleanable/blood,
 /turf/open/floor/plating/f13/outside/road{
@@ -35077,10 +35084,6 @@
 /obj/effect/spawner/lootdrop/f13/crafting,
 /turf/open/floor/wood/f13/old,
 /area/f13/legioncamp)
-"ehR" = (
-/mob/living/simple_animal/hostile/ghoul/hot,
-/turf/open/indestructible/ground/outside/desert,
-/area/f13/desert)
 "ejZ" = (
 /turf/open/floor/wood/f13{
 	icon_state = "housewastelandnorth"
@@ -147972,7 +147975,7 @@ aio
 abM
 aag
 aag
-ehR
+cth
 aag
 aag
 aag
