@@ -23031,9 +23031,9 @@
 "bmE" = (
 /obj/machinery/recharge_station,
 /turf/open/floor/plasteel/f13{
-	icon_state = "floorgrime"
+	icon_state = "floorrusty"
 	},
-/area/f13/ncr_main)
+/area/f13/sunny_dale)
 "bmF" = (
 /obj/structure/closet/crate/footlocker/ncr,
 /turf/open/floor/plasteel/f13{
@@ -29661,6 +29661,7 @@
 /area/f13/den)
 "bFR" = (
 /obj/machinery/light,
+/obj/machinery/recharge_station,
 /turf/open/floor/plating/f13/outside/road{
 	icon_state = "horizontalbottomborderbottom0"
 	},
@@ -39787,7 +39788,7 @@ bsB
 boq
 bvD
 vQi
-bmE
+vQi
 vQi
 vQi
 buA
@@ -47806,7 +47807,7 @@ aag
 abq
 aag
 bor
-bmE
+vQi
 vQi
 boq
 afp
@@ -67857,7 +67858,7 @@ bdm
 aOa
 bdJ
 baZ
-baZ
+bmE
 aOa
 big
 aHv
