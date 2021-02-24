@@ -146,7 +146,7 @@
 /obj/item/clothing/suit/bio_suit/f13/hazmat/ComponentInitialize()
 	. = ..()
 	AddComponent(/datum/component/rad_insulation, RAD_NO_INSULATION, TRUE, FALSE)
-	
+
 /obj/item/clothing/head/bio_hood/f13/hazmat
 	name = "hazmat hood"
 	desc = "My star, my perfect silence."
@@ -161,7 +161,7 @@
 /obj/item/clothing/head/bio_hood/f13/hazmat/ComponentInitialize()
 	. = ..()
 	AddComponent(/datum/component/rad_insulation, RAD_NO_INSULATION, TRUE, FALSE)
-	
+
 //Fallout 13 toggle apparel directory
 
 /obj/item/clothing/suit/toggle/labcoat/f13
